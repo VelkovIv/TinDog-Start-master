@@ -19,6 +19,8 @@ h1 {
     font-weight: 900;
 }
 
+
+
 /* Navigation Bar */
 
 .navbar{
@@ -52,4 +54,27 @@ h1 {
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* Featutes */
+.features{
+    margin: 100px 0;
+    text-align: center;
+}
+
+.features-title{
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 1.5rem;  
+    font-weight: 900;
+    
+}
+
+.features-text{
+    color: #8f8f8f;
+
+}
+
+.icons{
+    color: #ef8172;
+    font-size: xx-large;
 }
