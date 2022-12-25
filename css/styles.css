@@ -1,5 +1,5 @@
 body{
-    
+    font-family: 'Montserrat', sans-serif;  
 }
     
 
@@ -76,5 +76,9 @@ h1 {
 
 .icons{
     color: #ef8172;
-    font-size: xx-large;
+    font-size: 2rem;
+}
+
+.icons:hover{
+    color: #ff4c68;
 }
