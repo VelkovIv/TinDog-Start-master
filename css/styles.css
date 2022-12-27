@@ -60,17 +60,21 @@ h1 {
 .features{
     margin: 100px 0;
     text-align: center;
+
 }
 
 .features-title{
     font-family: 'Montserrat', sans-serif;  
     font-size: 1.5rem;  
     font-weight: 900;
+    padding: 0 20%;
     
 }
 
 .features-text{
     color: #8f8f8f;
+    padding: 0 20%;
+
 
 }
 
