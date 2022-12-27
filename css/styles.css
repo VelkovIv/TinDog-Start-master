@@ -80,7 +80,8 @@ h1 {
 
 .icons{
     color: #ef8172;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .icons:hover{
