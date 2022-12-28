@@ -58,7 +58,7 @@ h1 {
 
 /* Featutes */
 .features{
-    margin: 100px 0;
+    padding: 7% 20%;
     text-align: center;
 
 }
@@ -67,15 +67,12 @@ h1 {
     font-family: 'Montserrat', sans-serif;  
     font-size: 1.5rem;  
     font-weight: 900;
-    padding: 0 20%;
     
 }
 
 .features-text{
     color: #8f8f8f;
-    padding: 0 20%;
-
-
+    /* padding: 0 20%; */
 }
 
 .icons{
@@ -86,4 +83,11 @@ h1 {
 
 .icons:hover{
     color: #ff4c68;
+}
+
+/* Testemonial Section */
+
+#testimonials{
+    padding: 7% 20%;
+    text-align: center;
 }
