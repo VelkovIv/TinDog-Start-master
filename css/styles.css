@@ -2,14 +2,13 @@ body{
     font-family: 'Montserrat', sans-serif;  
 }
     
-
 #title{
     background-color: #ff4c68;
     color: #fff;
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {  
@@ -64,15 +63,24 @@ h3{
 /* Title Image */
 
 .title-image{
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+
 }
 
-/* Featutes */
-.features{
-    padding: 7% 20%;
-    text-align: center;
 
+/* Featutes */
+#features{
+    padding: 7% 20%;
+    background-color: #fff;
+    position: relative;
+}
+
+.features{
+    padding: 4.5%;
+    text-align: center;
 }
 
 .features-title{
@@ -138,4 +146,48 @@ h3{
 
 .pricing-column{
     padding: 2% 3%;
+}
+
+/* Call for Action Section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 3.5rem;  
+    font-weight: 900;
+    line-height: 1.5;
+    /* padding: 80px 30%; */
+
+}
+
+.cta-button{
+    margin: 4% 1% 4%;
+}
+
+/* Footer Section */
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.ft-icons{
+    padding: 0 10px 20px;
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
 }
