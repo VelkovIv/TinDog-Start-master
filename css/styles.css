@@ -19,7 +19,12 @@ h1 {
     font-weight: 900;
 }
 
-
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    list-style: 1.5;
+    font-weight: 550;
+}
 
 /* Navigation Bar */
 
@@ -90,4 +95,6 @@ h1 {
 #testimonials{
     padding: 7% 20%;
     text-align: center;
+    background-color: #ef8172;
+    color: #fff;
 }
