@@ -1,35 +1,29 @@
 body{
     font-family: 'Montserrat', sans-serif;  
 }
-    
+ 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Title Section */
 #title{
     background-color: #ff4c68;
     color: #fff;
 }
 
-.container-fluid{
-    padding: 3% 15% 7%;
-}
-
-h1 {  
-    font-family: 'Montserrat', sans-serif;  
+.title-heading{
     font-size: 3.5rem;  
     line-height: 1.5;  
     font-weight: 900;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    list-style: 1.5;
-    font-weight: 550;
-}
-
-h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    list-style: 1.5;
-    font-weight: 550;
+.container-fluid{
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -67,7 +61,6 @@ h3{
     transform: rotate(25deg);
     position: absolute;
     right: 25%;
-
 }
 
 
@@ -83,16 +76,14 @@ h3{
     text-align: center;
 }
 
-.features-title{
-    font-family: 'Montserrat', sans-serif;  
+.features-title{ 
     font-size: 1.5rem;  
     font-weight: 900;
-    
 }
 
 .features-text{
     color: #8f8f8f;
-    /* padding: 0 20%; */
+
 }
 
 .icons{
@@ -112,6 +103,12 @@ h3{
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    list-style: 1.5;
+    font-weight: 550;
 }
 
 .testimonial-image{
@@ -144,8 +141,24 @@ h3{
     text-align: center;
 }
 
+.price-heading{
+    font-size: 3rem;
+    list-style: 1.5;
+    font-weight: 550;
+}
+
+.price-title{
+    font-size: 1.5rem;
+}
+
 .pricing-column{
     padding: 2% 3%;
+}
+
+.price-text{
+    font-size: 3rem;
+    list-style: 1.5;
+    font-weight: 550;
 }
 
 /* Call for Action Section */
@@ -157,13 +170,10 @@ h3{
 }
 
 .cta-heading{
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;  
+    color: #fff; 
     font-size: 3.5rem;  
     font-weight: 900;
     line-height: 1.5;
-    /* padding: 80px 30%; */
-
 }
 
 .cta-button{
